@@ -1,0 +1,84 @@
+.flashsaletiitle{
+    text-align: left;
+    width: 80%;
+}
+.flashsalewrapper{
+    border-radius: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: #c2c1c1;
+}
+.flasesaleinfo{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.ordernow{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FF6801;
+}
+.seemorebtn{
+    margin-right: 30px;
+    padding: 8px 17px 8px 17px;
+    cursor: pointer;
+    border: 2px solid #FF6801;
+    background: none;
+    color: #FF6801;
+}
+.flashsaleproductinfo img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.flashsaleproductinfo{
+    padding: -10px;
+    box-shadow: 5px 2px 2px rgb(204, 199, 199);
+}
+.flashsaleproductinfo h3 {
+    text-align: left;
+    margin-left: 10px;
+}
+.flashsaleproductinfo h4 {
+    text-align: left;
+    margin-left: 10px;
+}
+.flashsaleproductinfo p {
+    text-align: left;
+    margin-left: 10px;
+}
+.flashsalecounter{
+    display: flex;
+    align-items: center;
+}
+.flashsale{
+  margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+   
+}
+@media screen and (max-width: 600px){
+    .flashsalewrapper{
+        width: 90%;
+        
+    }
+    .flashsale{
+  
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }    
+}
+@media screen and (min-width : 601px ) and (max-width: 800px) {
+    .flashsalewrapper{
+        width: 90%;
+        
+    }
+    .flashsale{
+  
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}

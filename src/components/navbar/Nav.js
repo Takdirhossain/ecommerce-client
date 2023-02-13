@@ -3,7 +3,7 @@ import "./nav.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from '@mui/icons-material/Search';
 import { useEffect, useState } from "react";
-
+import LoginIcon from '@mui/icons-material/Login';
 const Nav = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -27,7 +27,7 @@ const Nav = () => {
      
       
      
-      {( toggleMenu || screenWidth) && (
+      {( toggleMenu || screenWidth >800) && (
         <div className="naviteam">
         <span>Home</span>
         <span>Shop</span>
@@ -35,23 +35,22 @@ const Nav = () => {
         <span>About</span>
         <span>Contact</span>
         
-            
-      <span>  <input type="search" name="" id=""  />
+        <span> <ShoppingCartIcon  /></span>
+           <span> <LoginIcon/> </span>
+      <span >  <input type="search" name=""   placeholder="search product" />
        </span>
-        <button className="loginbutton" id="mobilelogin">Login</button>
+        
         <div className="navaccount">
-        <ShoppingCartIcon onClick={toggleNav} />
+           
+       
         <button className="loginbutton"  id="bigscreen">Login</button>
       </div>
       </div>
       )
-
-      
-    
       }
      
      
-        <MenuIcon className="mobiletoggle" />
+        <MenuIcon className="mobiletoggle" onClick={toggleNav} />
      
     </div>
   );

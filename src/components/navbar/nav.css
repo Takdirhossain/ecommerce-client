@@ -52,14 +52,15 @@ input:focus {
   font-size: 18px;
 }
 #mobilelogin {
-  display: none;
+  display: none !important;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .naviteam {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 120%;
+    margin: auto;
   }
   .naviteam span {
     padding-top: 10px;
@@ -75,6 +76,7 @@ input:focus {
   #bigscreen {
     display: none;
   }
+
   .navaccount {
     background-color: rgb(95, 95, 153);
     width: auto;
