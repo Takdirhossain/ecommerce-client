@@ -3,7 +3,6 @@
     width: 80%;
 }
 .flashsalewrapper{
-    border-radius: 7px;
     width: 80%;
     margin: auto;
     background-color: #c2c1c1;
@@ -33,7 +32,7 @@
 }
 .flashsaleproductinfo{
     padding: -10px;
-    box-shadow: 5px 2px 2px rgb(204, 199, 199);
+    
 }
 .flashsaleproductinfo h3 {
     text-align: left;
@@ -56,6 +55,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
+    padding-bottom: 30px;
    
 }
 @media screen and (max-width: 600px){

@@ -7,14 +7,14 @@ const Flashsale = () => {
   return (
     <div>
       <div className="flashsalewrapper">
-      <h2 className="flashsaletiitle">Flash Sale</h2>
+      <h2 className="flashsaletiitle ml-5 text-2xl">Flash Sale</h2>
         <div className="flasesaleinfo">
           <div className="flashsalecounter">
             <h2 className="ordernow">Order Now</h2>
            <h2 className="ordernow" > End in <Countdown date={Date.now() + 96780000} /></h2>
           </div>
           <div>
-            <button className="seemorebtn">See More</button>
+            <button className="seemorebtn pb-5">See More</button>
           </div>
         </div>
         <hr />

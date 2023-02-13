@@ -1,0 +1,11 @@
+.categorrywrapper{
+    width: 80%;
+    margin: auto;
+   background-color: rgb(173, 208, 33);
+}
+.categoryitem {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+   
+}
