@@ -3,29 +3,31 @@ import 'react-slideshow-image/dist/styles.css'
 import "./slider.css"
 const fadeImages = [
   {
-    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: "https://icms-image.slatic.net/images/ims-web/3e5a9dcf-209f-4d43-86fc-74c05e739568.jpg_1200x1200.jpg",
     caption: 'First Slide'
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+    url: "https://icms-image.slatic.net/images/ims-web/ecba4abe-968d-4457-b595-158b381c42e8.jpg" ,
     caption: 'Second Slide'
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: "https://icms-image.slatic.net/images/ims-web/e85cd7c0-ecce-4ae8-a37d-e468bc4f4b04.jpg",
     caption: 'Third Slide'
   },
 ];
 export default function Slider() {
   return (
     <div className="slide-container">
-      <Fade>
+     <div className='sliderimgwrapper'>
+     <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div key={index}>
-            <img className='sliderimg' src={fadeImage.url} />
-            <h2>{fadeImage.caption}</h2>
+            <img className='sliderimg' src={fadeImage.url} alt="" />
+           
           </div>
         ))}
       </Fade>
+     </div>
     </div>
   )
 }
