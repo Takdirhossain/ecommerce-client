@@ -1,13 +1,21 @@
 import "./flashsale.css";
 import watch1 from "../../assets/4113c4244f6c03abe5d20e5316dff387.jpg"
 import Countdown from "react-countdown";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Flashsale = () => {
 
+  useEffect(() => {
+AOS.init({
+  duration:1000
+})
+  },[])
   return (
-    <div>
-      <div className="flashsalewrapper">
-      <h2 className="flashsaletiitle ml-5 text-2xl">Flash Sale</h2>
+    <div  className="">
+      <div data-aos="zoom-in"  className="flashsalewrapper">
+      <h2 className="flashsaletiitle ml-5 text-2xl ">Flash Sale</h2>
         <div className="flasesaleinfo">
           <div className="flashsalecounter">
             <h2 className="ordernow">Order Now</h2>

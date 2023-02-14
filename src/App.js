@@ -6,17 +6,16 @@ import Slider from './components/slider/Slider';
 import Category from './components/category/Category';
 import Feturedproduct from './components/feturedproduct/Feturedproduct';
 import Footer from './components/footer/Footer';
+import Loadmore from './components/loadmorebtn/Loadmore';
+import Home from './pages/Home';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/Route';
 
 function App() {
   return (
-    <div className="App">
-     <Nav></Nav>
-     <Slider></Slider>
-     <Flashsale></Flashsale>
-     <Category></Category>
-     <Feturedproduct></Feturedproduct>
-     <Footer></Footer>
-    </div>
+   <RouterProvider router={router}>
+
+   </RouterProvider>
   );
 }
 

@@ -1,0 +1,11 @@
+.loadMore{
+    margin-top: 50px;
+    color: #F85606;
+    border: 2px solid #F85606;
+    padding: 5px 100px 5px 100px;
+    font-weight: bold;
+}
+.loadMore:hover{
+    background-color: #F85606;
+    color: white;
+}

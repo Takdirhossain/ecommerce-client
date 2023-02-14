@@ -4,6 +4,8 @@
     gap: 30px;
 }
 .feturedproductwrapper{
+    margin-top: 50px !important;
     width: 80%;
     margin: auto;
+    background-color: white;
 }

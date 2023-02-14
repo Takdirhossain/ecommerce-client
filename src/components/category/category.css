@@ -1,5 +1,6 @@
 .categorrywrapper{
     width: 80%;
+    margin-top: 50px !important;
     margin: auto;
    background-color: rgb(255, 255, 255);
 }

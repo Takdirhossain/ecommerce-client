@@ -3,7 +3,8 @@ import "./feturedproduct.css"
 const Feturedproduct = () => {
   return (
     <div className="feturedproductwrapper">
-      <h2>Fetured Product</h2>
+      <h2 className="font-bold text-2xl text-left
+       p-5 text-[#F85606]">Fetured Product</h2>
       <div className="feturedproduct">
         <div className="card card-compact  bg-base-100 shadow-xl">
           <figure>

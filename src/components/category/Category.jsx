@@ -1,8 +1,16 @@
 import "./category.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const Category = () => {
+    useEffect(() => {
+        AOS.init({
+          duration:1000
+        })
+          },[])
     return (
-        <div className="categorrywrapper">
-            <h2 className='text-2xl'>Category</h2>
+        <div data-aos="fade-down" className="categorrywrapper ">
+            <h2 className='text-2xl text-left p-5 font-bold text-[#F85606]'>Category</h2>
             <div className='categoryitem'>
                 <div className="category">
                     <img src="https://static-01.daraz.com.bd/p/bec6f26df54cc999576367147fa67fd1.jpg" alt="" />

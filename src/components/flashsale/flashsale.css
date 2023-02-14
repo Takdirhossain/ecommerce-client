@@ -1,11 +1,13 @@
 .flashsaletiitle{
     text-align: left;
+    color: #F85606;
+    font-weight: bold;
     width: 80%;
 }
 .flashsalewrapper{
     width: 80%;
     margin: auto;
-    background-color: #c2c1c1;
+    background-color: #FFFFFF;
 }
 .flasesaleinfo{
     display: flex;
@@ -33,6 +35,9 @@
 .flashsaleproductinfo{
     padding: -10px;
     
+}
+.flashsaleproductinfo:hover{
+    border: 1px solid gray;
 }
 .flashsaleproductinfo h3 {
     text-align: left;
