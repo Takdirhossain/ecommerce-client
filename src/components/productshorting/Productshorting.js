@@ -20,8 +20,8 @@ export default function Productshorting() {
       </div>
       <div>
         view
-        <MenuIcon className='mr-5 ml-5'></MenuIcon>
-        <WidgetsIcon></WidgetsIcon>
+        <MenuIcon className='mr-5 ml-5 cursor-pointer'></MenuIcon>
+        <WidgetsIcon className='cursor-pointer'></WidgetsIcon>
       </div>
       <hr />
     </div>

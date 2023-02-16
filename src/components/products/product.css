@@ -1,0 +1,22 @@
+.productbycolumn{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.columnwrapper{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+}
+.columnwrapper:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8)
+}
+.columnimg{
+    width: 300px;
+    border-radius: 7px;
+}
+.productcolumndetails{
+    display: flex;
+    align-items: center;
+}
