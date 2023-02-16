@@ -1,0 +1,15 @@
+.productshorrtingwrapper{
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+select{
+    border: 2px solid #EFF0F2;
+    padding: 4px;
+    margin-left: 5px;
+}
+.shortingproduct{
+    display: flex;
+    align-items: center;
+}
